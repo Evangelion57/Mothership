@@ -1,0 +1,29 @@
+# Игнорировать папки с временными файлами и сборками
+Binaries/
+Intermediate/
+Saved/
+.vs/
+Build/
+DerivedDataCache/
+.vscode/
+
+# Игнорировать файлы сгенерированных проектов для Visual Studio
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Игнорировать файлы с настройками пользователя
+*.uproject.user
+*.uplugin.user
+*.xcodeproj/user/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/
+*.xcworkspace/xcsettings/
+*.xcscheme
+
+# Игнорировать файлы MacOS
+.DS_Store
